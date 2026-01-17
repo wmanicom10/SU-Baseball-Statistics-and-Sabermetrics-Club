@@ -180,7 +180,7 @@ nav {
 #hero {
     margin-top: 140px;
     height: 83vh;
-    background: linear-gradient(135deg, #f15a29 0%, #d44500 50%, #2c5aa0 100%);
+    background: linear-gradient(135deg, #f15a29 0%, #d44500 30%, #203299 70%, #000e54 100%);
     color: white;
     display: flex;
     justify-content: center;
@@ -336,7 +336,7 @@ nav {
 .news-image {
     width: 100%;
     height: 200px;
-    background: linear-gradient(135deg, #2c5aa0, #1e3a6f);
+    background: linear-gradient(135deg, #2c5aa0, #203299);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,7 +349,7 @@ nav {
 }
 
 .news-date {
-    color: #d44500;
+    color: #203299;
     font-size: 0.85rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -447,19 +447,20 @@ nav {
 }
 
 .team-image {
-    background: linear-gradient(135deg, #f15a29, #d44500);
-    padding: 2rem;
+    background: linear-gradient(135deg, #2c5aa0, #203299);
+    padding: 1rem;
     position: relative;
 }
 
 .team-image img {
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
 
 .team-info {
@@ -634,7 +635,7 @@ nav {
 }
 
 .job-apply-btn {
-    background: linear-gradient(135deg, #f15a29, #d44500);
+    background: linear-gradient(135deg, #2c5aa0, #203299);
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 50px;

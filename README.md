@@ -1,1 +1,1 @@
-# SU-Baseball-Statistics-and-Sabermetrics-Club
+# SU Baseball Statistics and Sabermetrics Club
