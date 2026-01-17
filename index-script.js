@@ -20,7 +20,6 @@ const menuOverlay = document.querySelector('.menu-overlay');
 const mobileMenuLinks = document.querySelectorAll('.mobile-menu .nav-link a');
 
 hamburger.addEventListener('click', () => {
-    void hamburger.offsetWidth;
     hamburger.classList.toggle('active');
     mobileMenu.classList.toggle('active');
     menuOverlay.classList.toggle('active');
