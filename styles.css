@@ -94,6 +94,8 @@ nav {
     gap: 5px;
     z-index: 1101;
     position: relative;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .hamburger span {
@@ -102,6 +104,7 @@ nav {
     background: #d44500;
     border-radius: 3px;
     transition: all 0.3s ease;
+    transform-origin: center;
 }
 
 .hamburger.active span:nth-child(1) {
@@ -110,7 +113,7 @@ nav {
 
 .hamburger.active span:nth-child(2) {
     opacity: 0;
-    width: 0;
+    transform: scaleX(0);
 }
 
 .hamburger.active span:nth-child(3) {
