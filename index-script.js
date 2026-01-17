@@ -41,3 +41,10 @@ mobileMenuLinks.forEach(link => {
         document.body.style.overflow = 'auto';
     });
 });
+
+window.addEventListener('resize', () => {
+    hamburger.classList.remove('active');
+    mobileMenu.classList.remove('active');
+    menuOverlay.classList.remove('active');
+    document.body.style.overflow = 'auto';
+});
