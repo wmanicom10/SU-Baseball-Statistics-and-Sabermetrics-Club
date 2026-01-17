@@ -113,7 +113,7 @@ nav {
 
 .hamburger.active span:nth-child(2) {
     opacity: 0;
-    transform: scaleX(0);
+    background: transparent;
 }
 
 .hamburger.active span:nth-child(3) {
