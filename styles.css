@@ -110,6 +110,7 @@ nav {
 
 .hamburger.active span:nth-child(2) {
     opacity: 0;
+    width: 0;
 }
 
 .hamburger.active span:nth-child(3) {
