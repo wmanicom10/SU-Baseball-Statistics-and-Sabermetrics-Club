@@ -1,0 +1,28 @@
+{
+  "name": "su-baseball-statistics-and-sabermetrics-club-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./input.css -o ./styles.css --minify",
+    "watch": "npx tailwindcss -i ./input.css -o ./styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmanicom10/SU-Baseball-Statistics-and-Sabermetrics-Club.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wmanicom10/SU-Baseball-Statistics-and-Sabermetrics-Club"
+  },
+  "homepage": "https://github.com/wmanicom10/SU-Baseball-Statistics-and-Sabermetrics-Club",
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  }
+}
