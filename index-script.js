@@ -45,13 +45,7 @@ mobileMenuLinks.forEach(link => {
     });
 });
 
-window.addEventListener('resize', () => {
-    hamburger.classList.remove('active');
-    mobileMenu.classList.remove('active');
-    menuOverlay.classList.remove('active');
-    document.body.style.overflow = 'auto';
-    hamburger.setAttribute('aria-expanded', 'false');
-});
+
 
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {

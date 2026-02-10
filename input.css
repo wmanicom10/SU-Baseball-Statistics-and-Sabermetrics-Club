@@ -249,7 +249,7 @@ a:focus-visible, button:focus-visible {
 
 @media (max-width: 768px) {
     section {
-        scroll-margin-top: 110px;
+        scroll-margin-top: 90px !important;
     }
     #site-logo {
         width: auto;
@@ -262,7 +262,7 @@ a:focus-visible, button:focus-visible {
         margin-right: 10px;
     }
     .mobile-menu {
-        width: 80%;
+        width: 65%;
         padding-top: 95px !important;
     }
     #hero {
@@ -289,6 +289,10 @@ a:focus-visible, button:focus-visible {
     }
     #about {
         padding: 3rem 5%;
+    }
+    .about-icon {
+        width: 60px;
+        height: 60px;
     }
     .section-title {
         font-size: 2rem !important;
@@ -332,6 +336,10 @@ a:focus-visible, button:focus-visible {
     #projects-grid {
         grid-template-columns: 1fr;
     }
+    #projects-grid img {
+        height: auto;
+        aspect-ratio: 16/9;
+    }
     .footer-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -349,12 +357,19 @@ a:focus-visible, button:focus-visible {
 }
 
 @media (max-width: 480px) {
+    section {
+        scroll-margin-top: 80px !important;
+    }
     #site-logo {
         font-size: 14px;
     }
     #site-logo img {
         height: 50px;
         width: 50px;
+    }
+    .mobile-menu {
+        width: 65%;
+        padding-top: 85px !important;
     }
     #hero {
         margin-top: 90px;
