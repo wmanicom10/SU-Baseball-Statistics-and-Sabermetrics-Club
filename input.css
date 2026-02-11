@@ -23,6 +23,7 @@
     background: linear-gradient(90deg, #ff6b35, #d44500);
     transition: all 0.3s ease;
     transform: translateX(-50%);
+    opacity: 0;
 }
 
 .nav-link a:hover {
@@ -31,6 +32,7 @@
 
 .nav-link a:hover::after {
     width: 100%;
+    opacity: 1;
 }
 
 a:focus, button:focus {
@@ -131,6 +133,16 @@ a:focus-visible, button:focus-visible {
 .project-link:hover {
     color: #ff8c5a;
     gap: 0.5rem;
+}
+
+.project-link {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+div.flex.justify-between.items-center > span {
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .footer-section h4::after {
@@ -395,6 +407,17 @@ a:focus-visible, button:focus-visible {
     }
     .event-details h3 {
         font-size: 1.1rem;
+    }
+    .project-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .project-info span {
+        margin: 0;
+        margin-top: 5px;
+    }
+    .project-link {
+        margin-top: 15px;
     }
     .footer-bottom p {
         font-size: 0.85rem;
