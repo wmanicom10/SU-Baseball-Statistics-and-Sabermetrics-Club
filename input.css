@@ -145,17 +145,6 @@ div.flex.justify-between.items-center > span {
     overflow-wrap: break-word;
 }
 
-.footer-section h4::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 50px;
-    height: 3px;
-    background: linear-gradient(90deg, #ff6b35, #d44500);
-    border-radius: 2px;
-}
-
 .footer-section:nth-child(2) h4 {
     justify-content: center;
 }
@@ -231,7 +220,7 @@ div.flex.justify-between.items-center > span {
 @media (max-width: 1106px) {
     .footer-grid {
         grid-template-columns: 1fr !important;
-        gap: 2.5rem !important;
+        gap: 1rem !important;
         width: 100% !important;
     }
     .footer-section {
@@ -354,14 +343,10 @@ div.flex.justify-between.items-center > span {
     }
     .footer-grid {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
         width: 100%;
     }
     .footer-section {
         max-width: 100%;
-    }
-    .footer-section h4 {
-        min-height: auto;
     }
     .footer-links a:hover {
         transform: none;

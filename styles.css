@@ -620,6 +620,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -646,6 +650,10 @@ video {
 
 .mt-0 {
   margin-top: 0px;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-\[130px\] {
@@ -724,6 +732,10 @@ video {
   width: 100px;
 }
 
+.w-\[140px\] {
+  width: 140px;
+}
+
 .w-\[210px\] {
   width: 210px;
 }
@@ -750,10 +762,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.min-w-\[100px\] {
-  min-width: 100px;
 }
 
 .max-w-\[1058px\] {
@@ -874,6 +882,10 @@ video {
 
 .list-none {
   list-style-type: none;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
@@ -1147,10 +1159,6 @@ video {
 .py-\[0\.9rem\] {
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pb-8 {
@@ -1564,17 +1572,6 @@ div.flex.justify-between.items-center > span {
   overflow-wrap: break-word;
 }
 
-.footer-section h4::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 50px;
-  height: 3px;
-  background: linear-gradient(90deg, #ff6b35, #d44500);
-  border-radius: 2px;
-}
-
 .footer-section:nth-child(2) h4 {
   justify-content: center;
 }
@@ -1657,7 +1654,7 @@ div.flex.justify-between.items-center > span {
 @media (max-width: 1106px) {
   .footer-grid {
     grid-template-columns: 1fr !important;
-    gap: 2.5rem !important;
+    gap: 1rem !important;
     width: 100% !important;
   }
 
@@ -1813,16 +1810,11 @@ div.flex.justify-between.items-center > span {
 
   .footer-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
     width: 100%;
   }
 
   .footer-section {
     max-width: 100%;
-  }
-
-  .footer-section h4 {
-    min-height: auto;
   }
 
   .footer-links a:hover {
@@ -1898,5 +1890,17 @@ div.flex.justify-between.items-center > span {
 
   .footer-bottom p {
     font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

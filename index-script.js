@@ -62,3 +62,5 @@ document.addEventListener('keydown', (e) => {
         hamburger.setAttribute('aria-expanded', 'false');
     }
 });
+
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
