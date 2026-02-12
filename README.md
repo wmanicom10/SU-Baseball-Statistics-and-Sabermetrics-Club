@@ -2,6 +2,8 @@
 
 Official website for Syracuse University's Baseball Statistics and Sabermetrics Club.
 
+Visit the site at: www.subaseballstatsclub.com
+
 ## 🚀 Quick Start
 
 1. **Clone the repository**
